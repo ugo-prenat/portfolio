@@ -1,0 +1,36 @@
+.container {
+  background-color: white;
+  padding: 0 20px;
+  width: calc(100% - 40px);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+.links {
+  display: flex;
+  margin-left: 5%;
+}
+.links a {
+  padding: 0 3px;
+  margin: 0 20px;
+  text-decoration: none;
+}
+.resumeBtn a {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-blue-color);
+  padding: 5px 12px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: var(--blue-color);
+}
+.animContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
