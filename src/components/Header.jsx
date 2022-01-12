@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Lottie from 'react-lottie'
 
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import resume from '../assets/resume.pdf'
 
 import css from '../styles/header.module.css'
@@ -29,7 +29,7 @@ export default function Header() {
         <div className={css.links}>
           <Link to='/#projets'>Projets</Link>
           <Link to='/#experiences'>Expériences</Link>
-          <Link to='#about'>A propos de moi</Link>
+          <Link to='/#about'>A propos de moi</Link>
           <Link to='/#contact'>Contact</Link>
         </div>
 

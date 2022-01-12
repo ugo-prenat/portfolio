@@ -1,4 +1,5 @@
 .component {
   min-height: calc(100vh - 70px);
+  padding-top: 70px;
   border-bottom: 1px solid black;
 }
