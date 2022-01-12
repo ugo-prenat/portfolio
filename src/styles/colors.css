@@ -20,5 +20,6 @@
   --error-color: #DC3545;
   --light-error-color: #DC354533; /* 20% */
 
+  --gradient-bg: linear-gradient(92.75deg, var(--blue-color) 0%, var(--blue-color) 50%, var(--purple-color) 100%);
   --box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
 }

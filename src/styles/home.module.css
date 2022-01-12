@@ -1,0 +1,38 @@
+.component {
+  align-items: start;
+  margin-left: 10%;
+  padding-top: 0;
+}
+.title {
+  display: flex;
+  font-size: 45px;
+}
+.title span {
+  margin-left: 10px;
+  color: var(--blue-color);
+}
+.title span::after {
+  font-weight: 300;
+}
+.description {
+  margin: 5vh 0;
+  line-height: 20px;
+  font-family: 'sf-mono', 'poppins', sans-serif;
+  font-size: 14px;
+}
+.btn {
+  border-radius: 7px;
+  font-weight: 500;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: white;
+}
+.primaryBtn {
+  background: var(--gradient-bg);
+}
+.secondaryBtn {
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  box-shadow: var(--box-shadow);
+}

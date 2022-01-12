@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 
 import './styles/app.css'
+import './styles/fonts.css'
 import './styles/colors.css'
 
 import Header from './components/Header'
