@@ -17,7 +17,7 @@ export default function Header() {
   
   useEffect(() => {
     // Check if the user is on the dev version of the website
-    const appDomain = 'localhost'
+    const appDomain = 'ugoprenat.fr'
     const hostname = window.location.hostname
     if (hostname === `dev.${appDomain}`) setIsProdVersion(true)
   }, [])
