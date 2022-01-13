@@ -34,3 +34,18 @@
   width: 25px;
   height: 25px;
 }
+.devVersion {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.devVersion p {
+  background-color: var(--light-blue-color);
+  border-radius: 5px;
+  color: var(--blue-color);
+  padding: 3px 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
