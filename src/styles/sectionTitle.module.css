@@ -1,0 +1,17 @@
+.container {
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  position: absolute;
+  font-size: 60px;
+}
+.titleShadow {
+  color: white;
+  opacity: .05;
+  font-size: 130px;
+  font-weight: 700;
+}
