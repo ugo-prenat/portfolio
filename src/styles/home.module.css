@@ -36,3 +36,16 @@
   margin-left: 10px;
   box-shadow: var(--box-shadow);
 }
+.numbersContainer {
+  height: 100%;
+  position: absolute;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+.numbers {
+    text-align: right;
+    font-family: 'sf-mono', 'poppins', sans-serif;
+    line-height: 30px;
+    opacity: .2;
+}

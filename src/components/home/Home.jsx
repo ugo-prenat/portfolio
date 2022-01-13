@@ -1,15 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import Typical from 'react-typical'
 import { HashLink as Link } from 'react-router-hash-link'
 
 import css from '../../styles/home.module.css'
 
 import Numbers from './Numbers'
-import TypingText from './TypingText'
 
 export default function Home() {
+  const ref = useRef(null)
+  
   return (
-    <div className={`component ${css.component}`}>
-      <TypingText />
+    <div className={`component ${css.component}`} ref={ref}>
+      <h1 className={css.title}>
+        <p>Développeur</p>
+        <Typical
+          steps={['web', 1000, 'mobile', 1000, 'agile', 1000]}
+          loop={Infinity}
+          wrapper="span"
+        />
+      </h1>
 
       <p className={css.description}>Deuxième année à la <a href='https://codingfactory.fr/' target='_blank' rel='noreferrer'>Coding Factory</a> by ESIEE-IT,<br/>je prépare une licence en développement web et mobile que j’effectue en alternance</p>
 
@@ -18,7 +27,7 @@ export default function Home() {
         <Link to='/#contact' className={`${css.btn} ${css.secondaryBtn}`}>Me contacter</Link>
       </div>
 
-      <Numbers />
+      <Numbers data={ref} />
     </div>
 
   )
