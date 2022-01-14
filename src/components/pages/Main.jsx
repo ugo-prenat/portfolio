@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import '../../styles/main.css'
 
@@ -9,6 +9,10 @@ import About from '../about/About'
 import Contact from '../contact/Contact'
 
 export default function Main() {
+  useEffect(() => {
+    document.title = 'Ugo Prenat - Développeur web et mobile'
+  }, [])
+  
   return (
     <div>
       <Home />

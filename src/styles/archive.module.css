@@ -1,0 +1,18 @@
+.component {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.projectList {
+  margin-top: 5vh;
+  width: 70%;
+}
+.project {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  margin: 30px 0;
+  padding: 20px 30px;
+}

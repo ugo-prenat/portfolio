@@ -102,6 +102,6 @@ export const projects = [
     technologies: [],
     launchDate: '',
     showInProjects: Boolean,
-    logo: '', // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: require(`../assets/images/projects/`), // Si pas de logo, en générer un avec la 1er lettre du title
   } */
 ]
