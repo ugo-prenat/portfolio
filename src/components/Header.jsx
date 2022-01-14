@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Lottie from 'react-lottie'
+import Lottie from 'react-lottie-segments'
 
 import { HashLink as Link } from 'react-router-hash-link'
 import resume from '../assets/resume.pdf'
@@ -44,7 +44,7 @@ export default function Header() {
           <Link to='/#contact'>Contact</Link>
         </div>
 
-        <div className={css.resumeBtn} onMouseOver={() => setSequence({ segments: [0, 22], forceFlag: true })}>
+        <div className={css.resumeBtn} onMouseEnter={() => setSequence({ segments: [0, 60], forceFlag: true })}>
           <a href={resume} target='_blank' rel='noreferrer'>
             <div className={css.animContainer}>
               <Lottie
