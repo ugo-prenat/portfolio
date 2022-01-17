@@ -1,6 +1,7 @@
 .component {
   justify-content: start;
   padding-top: 0;
+  padding-bottom: 20vh;
 }
 .header {
   width: 100%;

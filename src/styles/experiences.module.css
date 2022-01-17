@@ -1,0 +1,34 @@
+.component {
+  background-color: #313131;
+  justify-content: space-evenly;
+  color: white;
+}
+.component h2 {
+  color: white;
+}
+.sectionDescription {
+  text-align: center;
+}
+.experienceList {
+  width: 50%;
+  border-left: 1px solid red;
+  padding: 20px 0;
+  padding-left: 40px;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.duration {
+  font-size: 14px;
+  opacity: .4;
+  margin-top: -5px;
+}
+.description {
+  margin-top: 20px;
+}
