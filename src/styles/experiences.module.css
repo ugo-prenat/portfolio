@@ -1,5 +1,7 @@
 .component {
-  background-color: #313131;
+  /* background-color: #313131; */
+  background-color: #222222;
+  background-color: var(--blue-color);
   justify-content: space-evenly;
   color: white;
 }

@@ -34,47 +34,37 @@
 }
 .project {
   display: flex;
+  flex-direction: column;
   background-color: white;
-  width: 600px;
-  margin: 50px;
+  width: 300px;
+  margin: 30px;
   margin-top: 0;
   border-radius: 10px;
+  padding: 40px;
   box-shadow: var(--box-shadow);
 }
-.logoContainer {
-  background-color: white;
+.projectHeader {
   display: flex;
-  justify-content: center;
-  width: 70px;
-  height: 100%;
-  border-radius: 10px 0 0 10px;
+  align-items: center;
 }
-.logoContainer img {
-  width: 60%;
-  height: fit-content;
-  margin-top: 30px;
-  border-radius: 50%;
-}
-.projectData {
-  background-color: white;
-  width: calc(100% - 70px);
-  padding: 30px;
-  padding-left: 0;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0 10px 10px 0;
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 .titleAndLaunch {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .title {
   font-size: 25px;
   font-weight: 600;
+  line-height: 27px;
 }
 .projectStatus {
   display: flex;
   align-items: center;
+  opacity: .7;
 }
 .projectStatus svg {
   width: 15px;
@@ -92,6 +82,7 @@
   font-size: 13px;
   font-weight: 300;
   opacity: .5;
+  white-space: nowrap;
 }
 .project .description {
   text-align: justify;
@@ -102,6 +93,7 @@
 }
 .technologies {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 .technology {
@@ -110,7 +102,8 @@
   font-size: 13px;
   border-radius: 5px;
   margin-right: 10px;
-  padding: 3px 10px;
+  margin-top: 10px;
+  padding: 2px 5px;
   font-family: 'sf-mono', 'poppins', sans-serif;
 }
 .links {

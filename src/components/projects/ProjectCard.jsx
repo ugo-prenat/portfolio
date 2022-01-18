@@ -7,14 +7,12 @@ export default function ProjectCard(props) {
   
   return (
     <div className={css.project}>
-
-      <div className={css.logoContainer}>
-        <img src={project.logo} alt={`${project.title} logo`} />
-      </div>
-      
-      <div className={css.projectData}>
         
+      <div className={css.projectHeader}>
+        <img className={css.logo} src={project.logo} alt={`${project.title} logo`} />
+          
         <div className={css.titleAndLaunch}>
+          
           <p className={css.title}>{ project.title }</p>
           
           { project.launchDate ?
@@ -29,6 +27,8 @@ export default function ProjectCard(props) {
             </div>
           }
         </div>
+      </div>
+        
         
         <p className={css.description}>{ project.description }</p>
 
@@ -54,7 +54,6 @@ export default function ProjectCard(props) {
           </div>
         </div>
         
-      </div>
     </div>
   )
 }

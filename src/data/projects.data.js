@@ -10,7 +10,7 @@ export const projects = [
     technologies: ['JavaScript', 'Chrome extension'],
     launchDate: 'Janvier 2021',
     showInProjects: false,
-    logo: require(`../assets/images/projects/FPI/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: undefined, // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 1,
@@ -21,7 +21,7 @@ export const projects = [
     technologies: ['JavaScript'],
     launchDate: 'Avril 2021',
     showInProjects: false,
-    logo: require(`../assets/images/projects/FPI/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: undefined, // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 2,
@@ -32,51 +32,51 @@ export const projects = [
     technologies: ['Vue'],
     launchDate: 'Octobre 2021',
     showInProjects: false,
-    logo: require(`../assets/images/projects/FPI/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: undefined, // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 3,
     title: 'Formation par l\'innovation',
-    description: '',
+    description: "Entreprise d'enseignement",
     githubLink: 'https://github.com/ugo-prenat/FPI_startup_project',
     projectLink: 'https://fpi.digital',
     technologies: ['JavaScript'],
     launchDate: 'Octobre 2021',
     showInProjects: true,
-    logo: require(`../assets/images/projects/FPI/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: require(`../assets/images/projects/fpi.png`), // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 4,
     title: 'Le Jeu Pour Tous',
-    description: '',
+    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire.",
     githubLink: 'https://github.com/ugo-prenat/theme_LJPT',
     projectLink: 'https://lejeupourtous.org',
     technologies: ['PHP', 'WordPress'],
     launchDate: 'Mai 2021',
     showInProjects: true,
-    logo: require(`../assets/images/projects/LJPT/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: require(`../assets/images/projects/ljpt.png`), // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 5,
     title: 'Cod\'Ring',
-    description: '',
+    description: "Plateforme visant à améliorer la qualité de vie au travail. Déstiné au entreprises et écoles, Cod'Ring",
     githubLink: 'https://github.com/ugo-prenat/codring',
     projectLink: undefined,
     technologies: ['React', 'Node js', 'express', 'mongoDB', 'Discord API'],
     launchDate: undefined,
     showInProjects: true,
-    logo: require(`../assets/images/projects/FPI/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: require(`../assets/images/projects/codring.png`), // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 6,
     title: 'Play With Crypto',
-    description: 'Le but de Play With Crypto est de jouer avec les échanges de cryptomonnaies. Avec un capital de départ de 100€, cette plateforme vous permet d\'effectuer des opérations d\'échanges de cryptomonnaies qui vous feront vous enrichir ou vous appauvrir ! A vous de faire les bons placements.',
+    description: 'Plateforme d\'échanges de cryptomonnaies. Avec un capital de départ de 100€, Play With Crypto vous permet d\'effectuer des opérations d\'échanges de cryptomonnaies qui vous feront vous enrichir ou vous appauvrir ! A vous de faire les bons placements.',
     githubLink: 'https://github.com/ugo-prenat/play_with_crypto',
     projectLink: 'https://play-with-crypto.fr',
     technologies: ['React', 'Node js', 'express', 'mongoDB', 'Coinbase API'],
     launchDate: 'Janvier 2022',
     showInProjects: true,
-    logo: require(`../assets/images/projects/playWithCrypto/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: require(`../assets/images/projects/playWithCrypto.png`), // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ export const projects = [
     technologies: ['React', 'Node js', 'express', 'mongoDB'],
     launchDate: undefined,
     showInProjects: true,
-    logo: require(`../assets/images/projects/FPI/logo.png`), // Si pas de logo, en générer un avec la 1er lettre du title
+    logo: require(`../assets/images/projects/generics.png`), // Si pas de logo, en générer un avec la 1er lettre du title
   },
   
   
