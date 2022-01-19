@@ -11,7 +11,7 @@ export default function ExperienceList() {
     <div className={css.experienceList}>
       { experiences.map((experience, index) =>{
         return ( <ExperienceCard data={experience} key={index} /> )
-      }) }
+      }).reverse() }
     </div>
   )
 }

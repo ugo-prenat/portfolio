@@ -35,13 +35,17 @@
 .project {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   width: 300px;
-  margin: 30px;
+  margin: 0 30px 60px;
   margin-top: 0;
   border-radius: 10px;
   padding: 40px;
   box-shadow: var(--box-shadow);
+}
+.project.hasProjectLink {
+  cursor: pointer;
 }
 .projectHeader {
   display: flex;
@@ -87,7 +91,7 @@
 .project .description {
   text-align: justify;
   color: var(--dark-text);
-  margin: 30px 0;
+  margin: 30px 0 20px;
   line-height: 20px;
   font-size: 14px;
 }

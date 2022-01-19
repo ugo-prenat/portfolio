@@ -7,7 +7,7 @@ import css from '../../styles/archive.module.css'
 export default function Archive() {
   useEffect(() => {
     document.title = 'Ugo Prenat - Archive'
-    //window.scrollTo(0, 0)
+    window.scrollTo(0, 0)
   }, [])
   
   return (

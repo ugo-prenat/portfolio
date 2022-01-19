@@ -9,7 +9,7 @@ export default function Experiences() {
   return (
     <div className={`component ${css.component}`} id='experiences'>
       
-      <SectionTitle>Expériences</SectionTitle>
+      <SectionTitle color='black'>Expériences</SectionTitle>
       
       <p className={css.sectionDescription}>
         Mon formation à la Coding Factory m’a permit de réaliser un stage de deux mois ainsi qu’une première année en alternance.

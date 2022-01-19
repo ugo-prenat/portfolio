@@ -66,8 +66,8 @@ td .links {
   justify-content: space-between;
 }
 td svg {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 td svg path {
   fill: var(--dark-text-light);
