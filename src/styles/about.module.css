@@ -1,5 +1,5 @@
 .component {
-  padding-top: 0;
+  margin: 20vh 0;
   flex-direction: row;
 }
 .imgContainer {
@@ -22,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
+  opacity: .1;
   z-index: +1;
   transition: opacity .2s
 }
