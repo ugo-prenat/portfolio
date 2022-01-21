@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 3,
     title: 'Formation par l\'innovation',
-    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles.",
+    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par quatre critères de qualités : rigueur, bienveillance, adaptabilité et accompagnement",
     githubLink: 'https://github.com/ugo-prenat/FPI_startup_project',
     projectLink: 'https://fpi.digital',
     technologies: ['JavaScript'],
@@ -48,7 +48,7 @@ export const projects = [
   {
     id: 4,
     title: 'Le Jeu Pour Tous',
-    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire.",
+    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothêque, l'association propose de nombreuses activitÈs en île-de-France comme la \"ludo'mobile\" ou des ludothêques éphémères",
     githubLink: 'https://github.com/ugo-prenat/theme_LJPT',
     projectLink: 'https://lejeupourtous.org',
     technologies: ['PHP', 'WordPress'],
@@ -59,7 +59,7 @@ export const projects = [
   {
     id: 5,
     title: 'Cod\'Ring',
-    description: "Plateforme visant à améliorer la qualité de vie au travail. Déstiné au entreprises et écoles, Cod'Ring vous permet de ",
+    description: "Destiné aux entreprise et écoles, Cod'Ring a pour objectif d'améliorer la qualité de vie au travail. Basé sur le partage de réussites personnelles, cette plateforme vous aide à développer un environnement de travail stable et sain.",
     githubLink: 'https://github.com/ugo-prenat/codring',
     projectLink: undefined,
     technologies: ['React', 'Node js', 'express', 'mongoDB', 'Discord API'],
