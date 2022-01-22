@@ -16,7 +16,7 @@ export default function Projects() {
         <p className={css.description}>
           En parallèle des projets réalisés durant ma formation, je développe des projets personnel sur mon temps libre,
           <br/>
-          cela me permet d’apprendre à réaliser un projet seul de A à Z ainsi que de monter en compétences sur des technologies modernes.
+          cela me permet d’apprendre à réaliser un projet seul de A à Z ainsi que d'apprendre de nouvelles technologies.
         </p>
         
       </div>

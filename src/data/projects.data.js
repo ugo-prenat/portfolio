@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 3,
     title: 'Formation par l\'innovation',
-    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par quatre critères de qualités : rigueur, bienveillance, adaptabilité et accompagnement",
+    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par 4 critères de qualités : rigueur, bienveillance, adaptabilité et accompagnement",
     githubLink: 'https://github.com/ugo-prenat/FPI_startup_project',
     projectLink: 'https://fpi.digital',
     technologies: ['JavaScript'],
@@ -59,10 +59,10 @@ export const projects = [
   {
     id: 5,
     title: 'Cod\'Ring',
-    description: "Destiné aux entreprise et écoles, Cod'Ring a pour objectif d'améliorer la qualité de vie au travail. Basé sur le partage de réussites personnelles, cette plateforme vous aide à développer un environnement de travail stable et sain.",
+    description: "Destiné aux entreprise et écoles, Cod'Ring est une plateforme de bien être et de suivi de performances ludique. L'objectif de la plateforme étant d'améliorer la qualité de vie au travail.",
     githubLink: 'https://github.com/ugo-prenat/codring',
     projectLink: undefined,
-    technologies: ['React', 'Node js', 'express', 'mongoDB', 'Discord API'],
+    technologies: ['React', 'Node js', 'express', 'mongoDB', 'Discord API', 'Slack API'],
     launchDate: undefined,
     showInProjects: true,
     logo: require(`../assets/images/projects/codring.png`),

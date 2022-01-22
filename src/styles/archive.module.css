@@ -61,13 +61,10 @@ td.projectTechnos, td.projectDate {
   font-size: 13px;
   font-family: 'sf-mono', 'poppins', sans-serif;
 }
-td .links {
-  display: flex;
-  justify-content: space-between;
-}
 td svg {
   width: 20px;
   height: 20px;
+  margin-right: 10px;
 }
 td svg path {
   fill: var(--dark-text-light);
