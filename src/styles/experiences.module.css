@@ -1,0 +1,24 @@
+.sectionDescription {
+  text-align: center;
+  margin: 10vh 0 20vh;
+}
+.experienceList {
+  width: 50%;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.duration {
+  font-size: 14px;
+  opacity: .4;
+  margin-top: -5px;
+}
+.description {
+  margin-top: 20px;
+}
