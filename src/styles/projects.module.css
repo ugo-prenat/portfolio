@@ -87,6 +87,7 @@
   font-weight: 300;
   opacity: .5;
   white-space: nowrap;
+  font-family: 'roboto mono', 'poppins', sans-serif;
 }
 .project .description {
   text-align: justify;
@@ -108,7 +109,7 @@
   margin-right: 10px;
   margin-top: 10px;
   padding: 2px 5px;
-  font-family: 'sf-mono', 'poppins', sans-serif;
+  font-family: 'roboto mono', 'poppins', sans-serif;
 }
 .links {
   display: flex;
@@ -140,7 +141,7 @@
 } */
 .archiveLink {
   display: flex;
-  font-family: 'sf-mono', 'poppins', sans-serif;
+  font-family: 'roboto mono', 'poppins', sans-serif;
   font-size: 14px;
 }
 .archiveLink p {
@@ -148,4 +149,5 @@
 }
 .archiveLink a {
   color: var(--dark-text);
+  
 }

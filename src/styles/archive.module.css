@@ -24,7 +24,7 @@
   font-weight: 700;
 }
 .title p {
-  font-family: 'sf-mono', 'poppins', sans-serif;
+  
   font-size: 14px;
 }
 table {
@@ -42,7 +42,7 @@ th {
   color: var(--blue-color);
   font-size: 18px;
   font-weight: 600;
-  font-family: 'sf-mono', 'poppins', sans-serif;
+  font-family: 'roboto mono', 'poppins', sans-serif;
   padding-bottom: 30px;
 }
 tbody td:first-of-type {
@@ -59,7 +59,7 @@ td.projectTitle {
 }
 td.projectTechnos, td.projectDate {
   font-size: 13px;
-  font-family: 'sf-mono', 'poppins', sans-serif;
+  font-family: 'roboto mono', 'poppins', sans-serif;
 }
 td svg {
   width: 20px;
