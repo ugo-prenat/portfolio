@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 3,
     title: 'Formation par l\'innovation',
-    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par 4 critères de qualités : rigueur, bienveillance, adaptabilité et accompagnement",
+    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par 4 critères de qualités : rigueur, bienveillance, adaptabilité et accompagnement.",
     githubLink: 'https://github.com/ugo-prenat/FPI_startup_project',
     projectLink: 'https://fpi.digital',
     technologies: ['JavaScript'],
@@ -48,7 +48,7 @@ export const projects = [
   {
     id: 4,
     title: 'Le Jeu Pour Tous',
-    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothêque, l'association propose de nombreuses activités en île-de-France comme la \"ludo'mobile\" ou des ludothêques éphémères",
+    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothêque, l'association propose de nombreuses activités en île-de-France comme la \"ludo'mobile\" ou des ludothêques éphémères.",
     githubLink: 'https://github.com/ugo-prenat/theme_LJPT',
     projectLink: 'https://lejeupourtous.org',
     technologies: ['PHP', 'WordPress'],
