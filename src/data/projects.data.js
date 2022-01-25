@@ -48,7 +48,7 @@ export const projects = [
   {
     id: 4,
     title: 'Le Jeu Pour Tous',
-    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothêque, l'association propose de nombreuses activitÈs en île-de-France comme la \"ludo'mobile\" ou des ludothêques éphémères",
+    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothêque, l'association propose de nombreuses activités en île-de-France comme la \"ludo'mobile\" ou des ludothêques éphémères",
     githubLink: 'https://github.com/ugo-prenat/theme_LJPT',
     projectLink: 'https://lejeupourtous.org',
     technologies: ['PHP', 'WordPress'],
