@@ -19,7 +19,7 @@ export const experiences = [
   {
     id: 1,
     title: 'Ministère des Armées',
-    description: "Alternance d'une année au sein du Ministère des Armées. Réalisée lors de ma deuxième année de license.\nTravaux sur les outils Grafana et Prometheus. Requêtage et appel d'API sur l'outils Tuleap.",
+    description: "Alternance d'une année réalisée lors de ma deuxième année de licence. Utilisation d’API pour développer de nouvelles fonctionnalités sur l’outils de gestion de projet interne. Injection de données dans un logiciel de Business Intelligence.",
     duration: 'Septembre 2021 - septembre 2022',
     link: undefined
 },
