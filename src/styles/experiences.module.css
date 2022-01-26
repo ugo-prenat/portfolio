@@ -18,7 +18,10 @@
   font-size: 14px;
   opacity: .4;
   margin-top: -5px;
+  font-family: 'roboto mono', 'poppins', sans-serif;
 }
 .description {
   margin-top: 20px;
+  text-align: justify;
+  white-space: pre-line;
 }
