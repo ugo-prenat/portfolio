@@ -17,8 +17,7 @@
 .description {
   margin: 5vh 0;
   line-height: 20px;
-  font-family: 'sf-mono', 'poppins', sans-serif;
-  font-size: 14px;
+  font-family: 'roboto mono', 'poppins', sans-serif;
 }
 .btn {
   border-radius: 7px;
@@ -45,7 +44,7 @@
 }
 .numbers {
   text-align: right;
-  font-family: 'sf-mono', 'poppins', sans-serif;
+  font-family: 'roboto mono', 'poppins', sans-serif;
   line-height: 30px;
   opacity: .15;
 }
