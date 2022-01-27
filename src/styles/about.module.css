@@ -1,5 +1,5 @@
 .component {
-  margin: 20vh 0;
+  margin-bottom: 20vh;
   flex-direction: row;
 }
 .imgContainer {
