@@ -4,7 +4,7 @@ export const experiences = [
   {
     id: 0,
     title: 'Le Jeu Pour Tous',
-    description: "Stage de deux mois réalisé dans le but de valider ma première année de license.\nDesign et développement d'un thème WordPress",
+    description: "Stage de deux mois réalisé dans le but de valider ma première année de licence.\nDesign et développement d'un thème WordPress.",
     duration: 'Mars - mai 2021',
     link: 'https://www.lejeupourtous.org/',
     logo: require('../assets/images/experiences/ljpt.png')
