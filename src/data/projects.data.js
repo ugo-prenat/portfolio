@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 3,
     title: 'Formation par l\'innovation',
-    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par 4 critères de qualités : rigueur, bienveillance, adaptabilité et accompagnement.",
+    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par 4 critères de qualité : rigueur, bienveillance, adaptabilité et accompagnement.",
     githubLink: 'https://github.com/ugo-prenat/FPI_startup_project',
     projectLink: 'https://fpi.digital',
     technologies: ['JavaScript'],
@@ -48,7 +48,7 @@ export const projects = [
   {
     id: 4,
     title: 'Le Jeu Pour Tous',
-    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothêque, l'association propose de nombreuses activités en île-de-France comme la \"ludo'mobile\" ou des ludothêques éphémères.",
+    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothèque, l'association propose de nombreuses activités en île-de-france comme la \"ludo'mobile\" ou des ludothèques éphémères.",
     githubLink: 'https://github.com/ugo-prenat/theme_LJPT',
     projectLink: 'https://lejeupourtous.org',
     technologies: ['PHP', 'WordPress'],
@@ -59,7 +59,7 @@ export const projects = [
   {
     id: 5,
     title: 'Cod\'Ring',
-    description: "Destiné aux entreprise et écoles, Cod'Ring est une plateforme de bien être et de suivi de performances ludique. L'objectif de la plateforme étant d'améliorer la qualité de vie au travail.",
+    description: "Destiné aux entreprises et écoles, Cod'Ring est une plateforme de bien-être et de suivi de performances ludique. L'objectif de la plateforme étant d'améliorer la qualité de vie au travail.",
     githubLink: 'https://github.com/ugo-prenat/codring',
     projectLink: undefined,
     technologies: ['React', 'Node js', 'express', 'mongoDB', 'Discord API', 'Slack API'],
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 7,
     title: 'Generics',
-    description: "Plateforme aidant les développeurs dans la création de leurs applications en fournissant un large choix de composants génériques réutilisables. Generics vous permet de sauvegarder vos composants pour les réutiliser dans vos futures projets ou pour les partager avec la communauté. A l'inverse, vous pouvez aussi utiliser les composants génériques d'autres autilisateurs dans vos applications.",
+    description: "Plateforme aidant les développeurs dans la création de leurs applications en fournissant un large choix de composants génériques réutilisables. Generics vous permet de sauvegarder vos composants pour les réutiliser dans vos futurs projets ou pour les partager avec la communauté. À l'inverse, vous pouvez aussi utiliser les composants génériques d'autres utilisateurs dans vos applications.",
     githubLink: 'https://github.com/ugo-prenat/generics',
     projectLink: undefined,
     technologies: ['React', 'Node js', 'express', 'mongoDB'],

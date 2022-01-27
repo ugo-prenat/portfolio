@@ -14,7 +14,7 @@ export default function Projects() {
         <SectionTitle>Mes projets</SectionTitle>
         
         <p className={css.description}>
-          En parallèle des projets réalisés durant ma formation, je développe des projets personnel sur mon temps libre,
+          En parallèle des projets réalisés durant ma formation, je développe des projets personnels sur mon temps libre,
           <br/>
           cela me permet d’apprendre à réaliser un projet seul de A à Z ainsi que d'apprendre de nouvelles technologies.
         </p>
