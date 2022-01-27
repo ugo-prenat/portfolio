@@ -3,11 +3,13 @@ import { Routes, Route } from 'react-router-dom'
 import './styles/app.css'
 import './styles/fonts.css'
 import './styles/colors.css'
+import 'aos/dist/aos.css'
 
 import Header from './components/Header'
 import Main from './components/pages/Main'
 import Archive from './components/pages/Archive'
 import PageNotFound from './components/pages/PageNotFound'
+
 
 function App() {
   return (

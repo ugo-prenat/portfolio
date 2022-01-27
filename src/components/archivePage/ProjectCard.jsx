@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos';
 
 import css from '../../styles/archive.module.css'
 
 export default function ProjectCard(props) {
   const project = props.data
+  
+  useEffect(() => Aos.init({ duration: 300 }))
   
   let monthDate, yearDate
 
@@ -17,7 +20,12 @@ export default function ProjectCard(props) {
   }
   
   return (
-    <tr>
+    <tr
+      data-aos='fade-right'
+      data-aos-delay={`${50 * props.index}`}
+      data-aos-once={true}
+      data-aos-offset={false}
+    >
       <td className={css.projectDate}>{ `${monthDate} ${yearDate}` }</td>
       <td className={css.projectTitle}>{ project.title }</td>
       <td className={css.projectTechnos}>{ project.technologies.map((technology, index) => {

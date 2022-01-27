@@ -9,30 +9,6 @@ export default function ProjectsList() {
 
   return (
     <div className={css.projectList}>
-      {/* <table>
-        <thead>
-          <tr>
-            <th>Sortie</th>
-            <th>Titre</th>
-            <th>Technologies</th>
-            <th>Lien</th>
-          </tr>
-        </thead>
-        
-        <tbody>
-          { projects.map((project, index) => {
-            return (
-              <tr className={css.project}>
-                <td>{project.launchDate}</td>
-                <td>{project.title}</td>
-                <td>{project.technologies[0]}</td>
-                <td>{project.githubLink}</td>
-              </tr>
-            )
-          }).reverse() }
-        </tbody>
-      </table> */}
-      
       <table>
         <thead>
           <tr>
@@ -44,9 +20,9 @@ export default function ProjectsList() {
         </thead>
         
         <tbody>
-          { projects.map((project, index) => {
-            return ( <ProjectCard data={project} key={index} /> )
-          }).reverse()}
+          { projects.slice(0).reverse().map((project, index) => {
+            return ( <ProjectCard data={project} index={index} key={index} /> )
+          })}
         </tbody>
       </table>
     </div>

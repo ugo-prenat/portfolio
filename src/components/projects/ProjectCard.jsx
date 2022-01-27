@@ -1,12 +1,22 @@
-import React from 'react'
+import React, { useEffect} from 'react'
+import Aos from 'aos';
 
 import css from '../../styles/projects.module.css'
 
 export default function ProjectCard(props) {
   const project = props.data
   
+  useEffect(() => Aos.init({ duration: 400 }) )
+
   return (
-    <div className={`${css.project} ${project.projectLink && css.hasProjectLink}`} onClick={() => { if (project.projectLink) window.open(project.projectLink, '_blank') }}>
+    <div 
+      data-aos='fade-up'
+      data-aos-delay={`${100 * props.index}`}
+      data-aos-once={true}
+      data-aos-offset={-10}
+      className={`${css.project} ${project.projectLink && css.hasProjectLink}`}
+      onClick={() => { if (project.projectLink) window.open(project.projectLink, '_blank') }}
+    >
       <div className={css.cardTop}>
         
         <div className={css.projectHeader}>
