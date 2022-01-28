@@ -14,10 +14,11 @@ export default function Archive() {
     <div className={css.component}>
       <div className={css.title}>
         <h2>Archives</h2>
-        <p>La liste des projets sur lesquelles j'ai travaillés.</p>
+        <p>La liste des projets sur lesquelles j'ai travaillé.</p>
       </div>
       
       <ProjectsList />
+      
     </div>
   )
 }

@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 7,
     title: 'Generics',
-    description: "Plateforme aidant les développeurs dans la création de leurs applications en fournissant un large choix de composants génériques réutilisables. Generics vous permet de sauvegarder vos composants pour les réutiliser dans vos futurs projets ou pour les partager avec la communauté. À l'inverse, vous pouvez aussi utiliser les composants génériques d'autres utilisateurs dans vos applications.",
+    description: "Generics permet aux développeurs de sauvegarder et partager leurs composants. Le but de la plateforme étant d'aider les développeurs dans la création de leurs applications en proposant des composants génériques et réutilisables.",
     githubLink: 'https://github.com/ugo-prenat/generics',
     projectLink: undefined,
     technologies: ['React', 'Node js', 'express', 'mongoDB'],

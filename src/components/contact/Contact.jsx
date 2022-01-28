@@ -28,6 +28,7 @@ export default function Contact() {
         
         <p>ugo.prenat@gmail.com</p>
         <p>07 83 13 14 43</p>
+        <p>Cergy, 95</p>
       </div>
       
       <div className={css.footer}>

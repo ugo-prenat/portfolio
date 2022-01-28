@@ -9,9 +9,9 @@ export default function ExperienceList() {
 
   return (
     <div className={css.experienceList}>
-      { experiences.map((experience, index) =>{
-        return ( <ExperienceCard data={experience} key={index} /> )
-      }).reverse() }
+      { experiences.slice(0).reverse().map((experience, index) =>{
+        return ( <ExperienceCard data={experience} index={index} key={index} /> )
+      })}
     </div>
   )
 }
