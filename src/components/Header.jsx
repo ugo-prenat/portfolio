@@ -20,7 +20,7 @@ export default function Header() {
     segments: [0, 1],
     forceFlag: true
   })
-  const [hambAnimDirection, setHambAnimDirection] = useState(1);
+  const [isMenuDeployed, setIsMenuDeployed] = useState(false);
   
   useEffect(() => {
     // Check if the user is on the dev version of the website
@@ -33,7 +33,7 @@ export default function Header() {
   
   const animOptions = {
     loop: false,
-    autoplay: true,
+    autoplay: false,
     animationData: downloadAnim,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"
@@ -49,7 +49,24 @@ export default function Header() {
   }
   
   const hambAnimate = () => {
-    setHambAnimDirection(-hambAnimDirection)
+    // Toggle the hamburger animation
+    let start = hambSequence.segments[0];
+    let stop = hambSequence.segments[1];
+
+    if (stop === 1 || stop === 97) {
+      start = 0
+      stop = 67
+    } else {
+      start = 67
+      stop = 97
+    }
+
+    setHambSequence({ 
+      segments: [start, stop],
+      forceFlag: true
+    })
+    
+    setIsMenuDeployed(!isMenuDeployed)
   }
 
     return (
@@ -58,25 +75,25 @@ export default function Header() {
           <Lottie
             options={hambOptions}
             style={{
-              width: 40,
-              height: 40,
+              width: '100%',
+              height: '100%',
             }}
             isClickToPauseDisabled={true}
-            setDirection={hambAnimDirection}
-            play={true}
+            playSegments={hambSequence}
           />
         </div>
         
         <div className={css.devVersion}>
-          {/* { isProdVersion && <p>DEV</p> } */}
+          { isProdVersion && <p>DEV</p> }
           <p>DEV</p>
         </div>
 
-        <div className={css.links}>
+        <div className={`${css.links} ${isMenuDeployed && css.deployed}`}>
           <Link
             to='/#projets'
             data-aos='fade-right'
             data-aos-delay={100}
+            onClick={hambAnimate}
           >
             Projets
           </Link>
@@ -84,6 +101,7 @@ export default function Header() {
             to='/#experiences'
             data-aos='fade-right'
             data-aos-delay={200}
+            onClick={hambAnimate}
           >
             Expériences
           </Link>
@@ -91,6 +109,7 @@ export default function Header() {
             to='/#about'
             data-aos='fade-right'
             data-aos-delay={300}
+            onClick={hambAnimate}
           >
             A propos de moi
           </Link>
@@ -98,6 +117,7 @@ export default function Header() {
             to='/#contact'
             data-aos='fade-right'
             data-aos-delay={400}
+            onClick={hambAnimate}
           >
             Contact
           </Link>
