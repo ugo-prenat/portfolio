@@ -90,3 +90,14 @@
     right: 10px;
   }
 }
+@media screen and (max-width: 400px) {
+  .devVersion {
+    display: none;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container {
+    width: calc(100% - 30px);
+    padding: 0 15px;
+  }
+}
