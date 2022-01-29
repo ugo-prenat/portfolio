@@ -1,9 +1,11 @@
 .container {
+  width: inherit;
   text-transform: uppercase;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .container h2 {
   position: absolute;
@@ -15,4 +17,10 @@
   opacity: .05;
   font-size: 130px;
   font-weight: 700;
+  white-space: pre;
+}
+@media screen and (max-width: 500px) {
+  .container h2 {
+    font-size: 50px;
+  }
 }
