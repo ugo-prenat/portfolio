@@ -110,6 +110,11 @@ td svg path {
     display: none;
   }
 }
+@media screen and (max-width: 400px) {
+  th {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 500px) {
   th.release {
     padding: 15px 0 30px;

@@ -95,6 +95,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 350px) {
+  .links {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 300px) {
   .container {
     width: calc(100% - 30px);

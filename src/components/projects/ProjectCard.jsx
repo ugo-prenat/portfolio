@@ -15,9 +15,8 @@ export default function ProjectCard(props) {
       data-aos-once={true}
       data-aos-offset={-10}
       className={`${css.project} ${project.projectLink && css.hasProjectLink}`}
-      onClick={() => { if (project.projectLink) window.open(project.projectLink, '_blank') }}
     >
-      <div className={css.cardTop}>
+      <div className={css.cardTop} onClick={() => { if (project.projectLink) window.open(project.projectLink, '_blank') }}>
         
         <div className={css.projectHeader}>
           <img className={css.logo} src={project.logo} alt={`${project.title} logo`} />
@@ -43,7 +42,7 @@ export default function ProjectCard(props) {
       </div>
 
       <div className={css.cardBottom}>
-        <div className={css.technologies}>
+        <div className={css.technologies} onClick={() => { if (project.projectLink) window.open(project.projectLink, '_blank') }}>
           { project.technologies.map((technology, index) => {
             return ( <p className={css.technology} key={index}>{ technology }</p> )
           }) }

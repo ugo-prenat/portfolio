@@ -85,7 +85,6 @@ export default function Header() {
         
         <div className={css.devVersion}>
           { isProdVersion && <p>DEV</p> }
-          <p>DEV</p>
         </div>
 
         <div className={`${css.links} ${isMenuDeployed && css.deployed}`}>
