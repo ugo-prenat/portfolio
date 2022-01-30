@@ -35,6 +35,9 @@ table {
 th, td {
   padding: 15px 15px;
 }
+th.links {
+  padding-right: 0;
+}
 tr {
   padding: 10px
 }
@@ -65,6 +68,8 @@ td.projectTechnos, td.projectDate {
 td svg {
   width: 20px;
   height: 20px;
+}
+td a:first-of-type svg {
   margin-right: 10px;
 }
 td svg path {
@@ -78,4 +83,41 @@ td svg path {
 [data-aos="new-animation"].aos-animate {
   opacity: 1;
   transform: translateX(0);
+}
+@media screen and (max-width: 1300px) {
+  .projectList, .title {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .projectList, .title {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  td {
+    padding: 15px 5px;
+  }
+  td a:first-of-type svg {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  th.technologies {
+    display: none;
+  }
+  td.projectTechnos {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  th.release {
+    padding: 15px 0 30px;
+  }
+  th.tableTitle {
+    padding-left: 5px;
+  }
+  th.links {
+    padding-left: 0;
+  }
 }
