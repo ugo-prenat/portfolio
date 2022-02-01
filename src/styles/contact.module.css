@@ -101,3 +101,74 @@
 .footer a {
   color: white;
 }
+@media screen and (max-width: 1200px) {
+  .sendMsgBlock {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .sendMsgBlock {
+    width: calc(100% - 120px - 50px);
+  }
+}
+@media screen and (max-width: 900px) {
+  .sendMsgBlock {
+    width: fit-content;
+  }
+  .title {
+    display: none;
+  }
+  .description {
+    margin-right: 70px;
+  }
+  .footer {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sendMsgBlock {
+    padding: 50px;
+  }
+  .description {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .sendMsgBlock {
+    flex-direction: column;
+    top: -110px;
+  }
+  .description {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .sendMsgBlock a {
+    width: calc(100% - 40px);
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sendMsgBlock {
+    padding: 30px;
+    top: -85px;
+  }
+  .description {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .sendMsgBlock {
+    padding: 20px;
+  }
+  .description {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .component {
+    padding-top: 0;
+  }
+  .sendMsgBlock {
+    display: none;
+  }
+}
