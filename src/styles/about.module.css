@@ -2,6 +2,11 @@
   margin-bottom: 20vh;
   flex-direction: row;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .imgContainer {
   position: relative;
   border-radius: 50%;
@@ -34,7 +39,7 @@
 }
 .content {
   width: 50%;
-  margin-left: 50px;
+  margin-left: 4%;
 }
 .title {
   font-weight: 700;
@@ -49,4 +54,39 @@
 .paragraph {
   margin: 20px 0;
   text-align: justify;
+}
+@media screen and (max-width: 1000px) {
+  .content {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .content {
+    width: 80%;
+    margin-left: 0;
+  }
+  .imgContainer {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .imgContainer {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+  }
 }

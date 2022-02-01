@@ -1,6 +1,6 @@
 .sectionDescription {
   text-align: center;
-  margin: 10vh 0 20vh;
+  margin: 10vh 50px 20vh;
 }
 .experienceList {
   width: 50%;
@@ -51,6 +51,8 @@
 .title {
   font-size: 25px;
   font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 5px;
 }
 .duration {
   font-size: 14px;
@@ -63,4 +65,36 @@
   text-align: justify;
   white-space: pre-line;
   font-size: 14px;
+}
+@media screen and (max-width: 1000px) {
+  .experienceList {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .experienceList {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .experience {
+    padding: 30px;
+  }
+  .sectionDescription {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sectionDescription {
+    text-align: justify;
+    margin: 50px 50px 100px;
+  }
+  .experience img {
+    align-self: start;
+  }
+}
+@media screen and (max-width: 300px) {
+  .title {
+    font-size: 20px;
+  }
 }

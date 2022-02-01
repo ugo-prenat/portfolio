@@ -12,17 +12,6 @@ export default function Numbers(props) {
     Aos.init({ duration: 400 })
     const tempNumbers = []
     
-    /* setTimeout(() => {
-      setContainerHeight(props.data.current.clientHeight)
-      
-      const nbLines = Math.floor(containerHeight / lineHeight)
-      
-      for (let i = 1; i <= nbLines; i++) {
-        tempNumbers.push(i)
-      }
-      setNumbers(tempNumbers)
-    }, 500) */
-    
     setContainerHeight(props.data.current.clientHeight)
     const nbLines = Math.floor(containerHeight / lineHeight)
     

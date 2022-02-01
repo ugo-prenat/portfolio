@@ -12,10 +12,10 @@ export default function ProjectsList() {
       <table>
         <thead>
           <tr>
-            <th>Sortie</th>
-            <th>Titre</th>
-            <th>Technologies</th>
-            <th>Lien</th>
+            <th className={css.release}>Sortie</th>
+            <th className={css.tableTitle}>Titre</th>
+            <th className={css.technologies}>Technologies</th>
+            <th className={css.links}>Lien</th>
           </tr>
         </thead>
         
