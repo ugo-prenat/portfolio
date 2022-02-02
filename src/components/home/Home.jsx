@@ -20,7 +20,7 @@ export default function Home() {
         />
       </h1>
 
-      <p className={css.description}>Deuxième année à la <a href='https://codingfactory.fr/' target='_blank' rel='noreferrer'>Coding Factory</a> by ESIEE-IT,<br/>je prépare une licence en développement web et mobile que j’effectue en alternance</p>
+      <p className={css.description}>Deuxième année à la <a href='https://codingfactory.fr/' target='_blank' rel='noreferrer'>Coding Factory</a> by ESIEE-IT,<br/>je prépare une licence en développement web et mobile que j’effectue en alternance.</p>
 
       <div className={css.btns}>
         <Link to='/#projets' className={`${css.btn} ${css.primaryBtn}`}>Jeter un coup d'oeil</Link>
