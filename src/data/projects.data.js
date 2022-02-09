@@ -80,13 +80,13 @@ export const projects = [
   },
   {
     id: 7,
-    title: 'Generics',
-    description: "Generics permet aux développeurs de sauvegarder et partager leurs composants. Le but de la plateforme est d'aider les développeurs dans la création de leurs applications en proposant des composants génériques et réutilisables.",
-    githubLink: 'https://github.com/ugo-prenat/generics',
-    projectLink: undefined,
+    title: 'Genely',
+    description: "Genely permet aux développeurs de sauvegarder et partager leurs composants. Le but de la plateforme est d'aider les développeurs dans la création de leurs applications en proposant des composants génériques et réutilisables.",
+    githubLink: 'https://github.com/ugo-prenat/genely',
+    projectLink: 'https://genely.dev',
     technologies: ['React', 'Node js', 'express', 'mongoDB'],
     launchDate: undefined,
     showInProjects: true,
-    logo: require(`../assets/images/projects/generics.png`),
+    logo: require(`../assets/images/projects/genely.png`),
   },
 ]
