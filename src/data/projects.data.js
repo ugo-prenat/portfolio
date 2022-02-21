@@ -3,6 +3,17 @@
 export const projects = [
   {
     id: 0,
+    title: 'Nathalie Prenat',
+    description: undefined,
+    githubLink: undefined,
+    projectLink: 'https://nathalieprenat.fr',
+    technologies: ['JavaScript'],
+    launchDate: 'Mai 2020',
+    showInProjects: false,
+    logo: undefined,
+  },
+  {
+    id: 1,
     title: 'Twitch chanel points claimer',
     description: undefined,
     githubLink: 'https://github.com/ugo-prenat/Auto_Click_Twitch_Extension',
@@ -13,7 +24,7 @@ export const projects = [
     logo: undefined,
   },
   {
-    id: 1,
+    id: 2,
     title: 'Twitt-r',
     description: undefined,
     githubLink: 'https://github.com/coding-factory-classrooms/Twitt-r',
@@ -22,17 +33,6 @@ export const projects = [
     launchDate: 'Avril 2021',
     showInProjects: false,
     logo: undefined,
-  },
-  {
-    id: 2,
-    title: 'Coin Market Wrap',
-    description: undefined,
-    githubLink: 'https://github.com/Dobrota-D/Project_Vue2_Gr4',
-    projectLink: undefined,
-    technologies: ['Vue'],
-    launchDate: 'Octobre 2021',
-    showInProjects: false,
-    logo: undefined, // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
     id: 3,
@@ -58,6 +58,17 @@ export const projects = [
   },
   {
     id: 5,
+    title: 'Coin Market Wrap',
+    description: undefined,
+    githubLink: 'https://github.com/Dobrota-D/Project_Vue2_Gr4',
+    projectLink: undefined,
+    technologies: ['Vue'],
+    launchDate: 'Octobre 2021',
+    showInProjects: false,
+    logo: undefined, // Si pas de logo, en générer un avec la 1er lettre du title
+  },
+  {
+    id: 6,
     title: 'Cod\'Ring',
     description: "Destiné aux entreprises et écoles, Cod'Ring est une plateforme de bien-être et de suivi de performances ludique. L'objectif de la plateforme étant d'améliorer la qualité de vie au travail.",
     githubLink: 'https://github.com/ugo-prenat/codring',
@@ -68,7 +79,7 @@ export const projects = [
     logo: require(`../assets/images/projects/codring.png`),
   },
   {
-    id: 6,
+    id: 7,
     title: 'Play With Crypto',
     description: "Avec un capital de départ de 100€, Play With Crypto est une plateforme qui vous permet de jouer avec les échanges de cryptomonnaies. A vous de faire les bons placements pour vous enrichir ou vous appauvrir !",
     githubLink: 'https://github.com/ugo-prenat/play_with_crypto',
@@ -79,7 +90,18 @@ export const projects = [
     logo: require(`../assets/images/projects/playWithCrypto.png`),
   },
   {
-    id: 7,
+    id: 8,
+    title: 'Weber',
+    description: undefined,
+    githubLink: 'https://github.com/Dobrota-D/Weber',
+    projectLink: 'https://weber-dev.netlify.app',
+    technologies: ['React', 'Node js', 'express', 'mongoDB'],
+    launchDate: 'Février 2022',
+    showInProjects: false,
+    logo: undefined,
+  },
+  {
+    id: 9,
     title: 'Genely',
     description: "Genely permet aux développeurs de sauvegarder et partager leurs composants. Le but de la plateforme est d'aider les développeurs dans la création de leurs applications en proposant des composants génériques et réutilisables.",
     githubLink: 'https://github.com/ugo-prenat/genely',
