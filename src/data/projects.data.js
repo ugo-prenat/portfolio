@@ -2,7 +2,6 @@
 
 export const projects = [
   {
-    id: 0,
     title: 'Nathalie Prenat',
     description: undefined,
     githubLink: undefined,
@@ -13,7 +12,6 @@ export const projects = [
     logo: undefined,
   },
   {
-    id: 1,
     title: 'Twitch chanel points claimer',
     description: undefined,
     githubLink: 'https://github.com/ugo-prenat/Auto_Click_Twitch_Extension',
@@ -24,20 +22,8 @@ export const projects = [
     logo: undefined,
   },
   {
-    id: 2,
-    title: 'Twitt-r',
-    description: undefined,
-    githubLink: 'https://github.com/coding-factory-classrooms/Twitt-r',
-    projectLink: undefined,
-    technologies: ['JavaScript'],
-    launchDate: 'Avril 2021',
-    showInProjects: false,
-    logo: undefined,
-  },
-  {
-    id: 3,
     title: 'Formation par l\'innovation',
-    description: "Entreprise d'enseignement offrant des prestations aux entreprises et écoles. Leur engagement est défini par 4 critères de qualité : rigueur, bienveillance, adaptabilité et accompagnement.",
+    description: "Formation Par l'Innovation est une entreprise d'enseignement offrant des prestations aux entreprises et écoles. En recherche de plus de visibilité, notre objectif a été de développer un site vitrine pour mettre en avant leur activité.",
     githubLink: 'https://github.com/ugo-prenat/FPI_startup_project',
     projectLink: 'https://fpi.digital',
     technologies: ['JavaScript'],
@@ -46,9 +32,9 @@ export const projects = [
     logo: require(`../assets/images/projects/fpi.png`), // Si pas de logo, en générer un avec la 1er lettre du title
   },
   {
-    id: 4,
     title: 'Le Jeu Pour Tous',
-    description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothèque, l'association propose de nombreuses activités en île-de-france comme la \"ludo'mobile\" ou des ludothèques éphémères.",
+    /* description: "Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothèque, l'association propose de nombreuses activités en île-de-france comme la \"ludo'mobile\" ou des ludothèques éphémères.", */
+    description: "L'association Le Jeu Pour Tous est une association qui s’engage pour la reconnaissance du jeu en tant que pratique culturelle et populaire. En plus de sa ludothèque, l'association propose de nombreuses activités en île-de-france comme la \"ludo'mobile\" ou des ludothèques éphémères.",
     githubLink: 'https://github.com/ugo-prenat/theme_LJPT',
     projectLink: 'https://lejeupourtous.org',
     technologies: ['PHP', 'WordPress'],
@@ -57,20 +43,8 @@ export const projects = [
     logo: require(`../assets/images/projects/ljpt.png`),
   },
   {
-    id: 5,
-    title: 'Coin Market Wrap',
-    description: undefined,
-    githubLink: 'https://github.com/Dobrota-D/Project_Vue2_Gr4',
-    projectLink: undefined,
-    technologies: ['Vue'],
-    launchDate: 'Octobre 2021',
-    showInProjects: false,
-    logo: undefined, // Si pas de logo, en générer un avec la 1er lettre du title
-  },
-  {
-    id: 6,
     title: 'Cod\'Ring',
-    description: "Destiné aux entreprises et écoles, Cod'Ring est une plateforme de bien-être et de suivi de performances ludique. L'objectif de la plateforme étant d'améliorer la qualité de vie au travail.",
+    description: "La qualité de vie au travail étant au centre des préoccupations de plus en plus d'entreprises, l'objectif de Cod'ring est d'améliorer celle-ci en offrant une plateforme de bien-être et de suivi de performances",
     githubLink: 'https://github.com/ugo-prenat/codring',
     projectLink: undefined,
     technologies: ['React', 'Node js', 'express', 'mongoDB', 'Discord API', 'Slack API'],
@@ -79,9 +53,8 @@ export const projects = [
     logo: require(`../assets/images/projects/codring.png`),
   },
   {
-    id: 7,
     title: 'Play With Crypto',
-    description: "Avec un capital de départ de 100€, Play With Crypto est une plateforme qui vous permet de jouer avec les échanges de cryptomonnaies. A vous de faire les bons placements pour vous enrichir ou vous appauvrir !",
+    description: "Les cours des cryptomonnaies ne cessent de fluctuer et essayer de les prédire peut se révéler dangereux pour votre porte-monnaie. L'objectif de Play With Crypto est de vous permettre de jouer avec ces cours en ne misant que de l'argent fictif.",
     githubLink: 'https://github.com/ugo-prenat/play_with_crypto',
     projectLink: 'https://play-with-crypto.fr',
     technologies: ['React', 'Node js', 'express', 'mongoDB', 'Coinbase API'],
@@ -90,7 +63,6 @@ export const projects = [
     logo: require(`../assets/images/projects/playWithCrypto.png`),
   },
   {
-    id: 8,
     title: 'Weber',
     description: undefined,
     githubLink: 'https://github.com/Dobrota-D/Weber',
@@ -101,9 +73,8 @@ export const projects = [
     logo: undefined,
   },
   {
-    id: 9,
     title: 'Genely',
-    description: "Genely permet aux développeurs de sauvegarder et partager leurs composants. Le but de la plateforme est d'aider les développeurs dans la création de leurs applications en proposant des composants génériques et réutilisables.",
+    description: "Le développement d'applications nécessite parfois la création de composants génériques. L'objectif de Genely est d'offrir aux développeurs la possibilité de partager et de récupérer ces composants génériques et réutilisables pour leurs applications.",
     githubLink: 'https://github.com/ugo-prenat/genely',
     projectLink: 'https://genely.dev',
     technologies: ['React', 'Node js', 'express', 'mongoDB'],
