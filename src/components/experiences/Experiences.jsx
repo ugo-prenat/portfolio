@@ -12,9 +12,7 @@ export default function Experiences() {
         <SectionTitle>Expériences</SectionTitle>
         
         <p className={css.sectionDescription}>
-          Ma formation à la Coding Factory m’a permis de réaliser un stage de deux mois ainsi qu’une année en alternance.
-          <br/>
-          Je cherche actuellement une entreprise où je pourrai réaliser ma dernière année de licence.
+          Ma formation à la Coding Factory m’a permis de réaliser un stage de deux mois ainsi que deux années d'alternance.
         </p>
       </div>
       
