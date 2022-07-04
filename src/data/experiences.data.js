@@ -16,5 +16,13 @@ export const experiences = [
     duration: 'Septembre 2021 - septembre 2022',
     link: 'https://www.defense.gouv.fr/',
     logo: require('../assets/images/experiences/minarm.jpeg')
-},
+  },
+  /* {
+    id: 2,
+    title: 'Canal+',
+    description: "Alternance d'une année réalisée lors de ma troisième année de licence.\nMaintenance et développement de la plateforme web myCANAL.",
+    duration: 'Octobre 2022 - Novembre 2023',
+    link: 'https://www.canalplus.com/',
+    logo: require('../assets/images/experiences/canal+.png')
+  }, */
 ]
