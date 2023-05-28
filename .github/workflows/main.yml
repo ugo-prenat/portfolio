@@ -6,8 +6,9 @@ on:
 
 env:
   DOCKER_IMAGE: ugoprenat/ugoprenat
+  DOCKER_CONTAINER: ugoprenat
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-  DOCKER_HOST_PORT: 4002
+  HOST_PORT: 4001
 
 jobs:
   update_docker_image:
@@ -62,4 +63,4 @@ jobs:
               fi
             docker system prune -f
             docker pull ${{ steps.meta.outputs.tags }}
-            docker run -d -p ${{ env.DOCKER_HOST_PORT }}:3000 ${{ steps.meta.outputs.tags }}
+            docker run -d -p ${{ env.HOST_PORT }}:3000 --name ${{ env.DOCKER_CONTAINER }} ${{ steps.meta.outputs.tags }}
