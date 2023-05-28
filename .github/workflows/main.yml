@@ -8,7 +8,7 @@ env:
   DOCKER_IMAGE: ugoprenat/ugoprenat
   DOCKER_CONTAINER: ugoprenat
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-  HOST_PORT: 4001
+  HOST_PORT: 4004
 
 jobs:
   update_docker_image:
