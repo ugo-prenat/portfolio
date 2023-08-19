@@ -21,7 +21,7 @@ export const experiences = [
     id: 2,
     title: 'Canal+',
     description:
-      "Alternance d'une année réalisée lors de ma troisième année de licence.\nMaintenance et développement de l'outil d'administration des données éditoriales",
+      "Alternance d'une année réalisée lors de ma troisième année de licence.\nMaintenance et développement de l'outil d'administration des données éditoriales.",
     duration: 'Octobre 2022 - Août 2023',
     link: 'https://www.canalplus.com/',
     logo: require('../assets/images/experiences/canal+.png')
